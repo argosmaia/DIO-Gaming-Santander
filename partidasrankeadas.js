@@ -1,7 +1,7 @@
 function calcularNivel() {
     var vit = parseInt(prompt("Digite a quantidade de vitórias:"));
     var der = parseInt(prompt("Digite a quantidade de derrotas:"));
-    var saldo = vitorias - derrotas;
+    var saldo = vit - der;
     var nivel;
   
     if (vit < 10) {
